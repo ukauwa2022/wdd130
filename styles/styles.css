@@ -139,14 +139,20 @@ footer p {
 .socialmedia {
     display: flex;
     gap: 8px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .socialmedia a {
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 .socialmedia img {
     width: 25px;
     height: 25px;
     object-fit: contain;
+    display: block;
 }
