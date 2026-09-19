@@ -1,159 +1,98 @@
-:root {
---primary-color: #006d77;
---secondary-color: #83c5be;
---accent1-color: #264653;
---accent2-color: #ffddd2;
---heading-font: Georgia, "Times New Roman", serif;
---body-font: Arial, Helvetica, sans-serif;
-<link rel="stylesheet" href="styles/style.css">
-}
+<!DOCTYPE html>
+<html lang="en-US">
 
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Rapids Adventure Rafting offers exciting and safe white water rafting adventures for families, friends, and adventure seekers.">
+    <meta name="author" content="Ukauwa Christian Chimaobi">
+    <title>Rapids Adventure Rafting | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
 
-body {
-font-family: var(--body-font);
-color: var(--accent1-color);
-}
+<body>
 
-header,
-main,
-footer {
-width: 840px;
-margin: 0 auto;
-}
+    <header>
+        <img src="images/z-splash.png" alt="Rapids Adventure Rafting Logo">
 
-header {
-display: grid;
-grid-template-columns: 150px 1fr;
-align-items: center;
-background-color: var(--primary-color);
-padding: 10px;
-}
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header img {
-width: 120px;
-height: auto;
-}
+    <main>
 
-nav ul {
-display: flex;
-justify-content: space-around;
-list-style: none;
-}
+        <div class="hero">
+            <img src="images/rafting27_1024.jpg"
+              alt="People enjoying white water rafting on a river">
 
-nav a {
-color: white;
-text-decoration: none;
-font-weight: bold;
-}
+            <h1>Rapids Adventure Rafting</h1>
 
-nav a:hover {
-color: var(--accent2-color);
-}
+            <article>
+                <img src="images/rafting47_600.jpg"
+                  alt="Happy rafting client enjoying a rafting adventure">
 
-h1,
-h2 {
-font-family: var(--heading-font);
-color: var(--primary-color);
-}
+                <p>
+                    Experience the excitement of white water rafting with
+                    Rapids Adventure Rafting. Our experienced guides provide
+                    safe, fun, and unforgettable adventures for families,
+                    friends, and adventure seekers.
+                </p>
+            </article>
+        </div>
 
-h1 {
-position: absolute;
-top: 20px;
-width: 100%;
-padding: 16px;
-text-align: center;
-opacity: 0.85;
-background-color: var(--accent1-color);
-color: white;
-}
+        <section>
+            <h2>Adventure Awaits You!</h2>
 
-h2 {
-text-align: center;
-margin-bottom: 10px;
-}
+            <p>
+                Get ready for an exciting journey on the river. Whether you
+                are looking for a thrilling adventure or a memorable outdoor
+                experience, our rafting trips are designed to create lasting
+                memories.
+            </p>
+        </section>
 
-nav,
-p,
-section,
-article {
-margin: 16px;
-padding: 8px;
-}
+        <section>
+            <h2>Explore Our Rafting Trips</h2>
 
-.hero {
-position: relative;
-margin-top: 20px;
-}
+            <p>
+                Discover exciting rafting experiences and choose the adventure
+                that is right for you.
+            </p>
 
-.hero > img {
-display: block;
-width: 100%;
-height: auto;
-}
+            <p>
+                <a href="trips.html">View Our Trips</a>
+            </p>
+        </section>
 
-.hero article {
-position: absolute;
-left: 40px;
-right: 40px;
-bottom: 30px;
-background-color: rgba(38, 70, 83, 0.85);
-color: white;
-padding: 15px;
-}
+    </main>
 
-.hero article p {
-color: white;
-}
+    <footer>
+        <p>
+            &copy; 2026 Rapids Adventure Rafting | Ukauwa Christian Chimaobi
+        </p>
 
-.hero article img {
-float: right;
-width: 125px;
-height: 125px;
-object-fit: cover;
-margin-left: 15px;
-border: 3px solid white;
-}
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
 
-section {
-margin-top: 30px;
-margin-bottom: 30px;
-}
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
 
-footer {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: var(--primary-color);
-color: white;
-padding: 15px;
-}
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
 
-footer p {
-margin: 0;
-}
+</body>
 
-.socialmedia {
-display: flex;
-gap: 8px;
-align-items: center;
-margin: 0;
-padding: 0;
-}
-
-.socialmedia a {
-text-decoration: none;
-margin: 0;
-padding: 0;
-}
-
-.socialmedia img {
-width: 25px;
-height: 25px;
-object-fit: contain;
-display: block;
-}
+</html>
