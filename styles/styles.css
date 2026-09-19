@@ -1,4 +1,4 @@
-css:root {
+```css:root {
     --primary-color: #006d77;
     --secondary-color: #83c5be;
     --accent1-color: #264653;
@@ -148,3 +148,5 @@ footer p {
     width: 35px;
     height: 35px;
 }
+
+```
